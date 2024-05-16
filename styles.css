@@ -111,6 +111,7 @@ nav ul li a:hover {
     background-color: #f4f4f4;
 }
 
+/* About Section */
 .about-section {
     padding: 80px 20px;
     background-color: #fff;
@@ -183,6 +184,7 @@ nav ul li a:hover {
     border-radius: 5px;
 }
 
+/* Project Section */
 .projects-section {
     padding: 80px 20px;
     background-color: #f0f0f0;
@@ -247,6 +249,72 @@ nav ul li a:hover {
     background-color: #e65c50;
 }
 
+/* Experience Section */
+.experience-section {
+    padding: 80px 20px;
+    background-color: #fff;
+    text-align: center;
+    color: #333;
+}
+
+.experience-section h2 {
+    font-size: 36px;
+    margin-bottom: 50px;
+    color: #333;
+}
+
+.experience-timeline {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    position: relative;
+    padding-left: 20px;
+    border-left: 2px solid #ff6f61;
+}
+
+.experience-item {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.experience-date {
+    flex: 1;
+    padding-right: 20px;
+    text-align: right;
+}
+
+.experience-date h3 {
+    font-size: 20px;
+    color: #666;
+}
+
+.experience-content {
+    flex: 3;
+    padding: 15px 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+.experience-content h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #ff6f61;
+}
+
+.experience-content h4 {
+    font-size: 20px;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.experience-content p {
+    font-size: 16px;
+    color: #666;
+}
+
 
 /* Responsive Design */
 @media (max-width: 768px) {
@@ -261,7 +329,8 @@ nav ul li a:hover {
     nav ul {
         display: none;
     }
-
+    
+    /* media for about */
     .about-content {
         flex-direction: column;
         align-items: center;
@@ -272,7 +341,29 @@ nav ul li a:hover {
         max-width: 100%;
     }
 
+    /* media for project */
     .projects-grid {
         grid-template-columns: 1fr;
+    }
+
+    /* media for experience */
+    .experience-timeline {
+        padding-left: 0;
+        border-left: none;
+    }
+
+    .experience-item {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .experience-date {
+        text-align: center;
+        padding-right: 0;
+        margin-bottom: 10px;
+    }
+
+    .experience-content {
+        text-align: center;
     }
 }

@@ -46,7 +46,8 @@ nav ul li a:hover {
 
 .hero {
     height: 100vh;
-    background: url('hero-bg.jpg') no-repeat center center/cover;
+    /* background: url('hero-bg.jpg') no-repeat center center/cover; */
+    background-image: radial-gradient(#632525, #000000);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -68,6 +69,18 @@ nav ul li a:hover {
 .hero-content {
     position: relative;
     z-index: 2;
+}
+
+.hero-content img {
+    height: auto;
+    width: 300px;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.hero-content img:hover {
+    transform: translateY(-10px);
 }
 
 .hero h1 {

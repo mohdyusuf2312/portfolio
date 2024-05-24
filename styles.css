@@ -16,12 +16,19 @@ nav {
     align-items: center;
     padding: 20px;
     background-color: #333;
+    position: sticky;
+    top: 0%;
+    z-index: 100;
 }
 
 nav .logo {
     font-size: 24px;
     font-weight: bold;
     color: #fff;
+    transition: color 0.3s ease;
+}
+nav .logo:hover {
+    color: #ff6f61;
 }
 
 nav ul {
@@ -33,14 +40,14 @@ nav ul li {
     margin-left: 20px;
 }
 
-nav ul li a {
+nav a {
     text-decoration: none;
     color: #fff;
     font-size: 18px;
     transition: color 0.3s ease;
 }
 
-nav ul li a:hover {
+nav a:hover {
     color: #ff6f61;
 }
 
@@ -75,12 +82,11 @@ nav ul li a:hover {
     height: auto;
     width: 300px;
     border-radius: 50%;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease;
+    transition: transform 0.4s ease;
 }
 
 .hero-content img:hover {
-    transform: translateY(-10px);
+    transform: translateY(-15px);
 }
 
 .hero h1 {
@@ -391,6 +397,39 @@ nav ul li a:hover {
     color: #ff6f61;
 }
 
+.submit_card {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    background-color: #cfcfcf;
+    width: 35%;
+    height: 30vh;
+    margin-top: 10%;
+    padding-left: 5%;
+}
+.containner {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.submit_card a {
+    color: #ff6f61;
+    font-weight: 700;
+    text-decoration: none;
+}
+.submit_card a:hover {
+    text-decoration: underline #ff6f61;
+}
+.submit_card p {
+    color: #585858;
+    margin-bottom: 5%;
+}
+.submit_card h1 {
+    margin-bottom: 5%;
+}
 
 /* Responsive Design */
 @media (max-width: 768px) {

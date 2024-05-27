@@ -267,6 +267,28 @@ nav a:hover {
 .project-info .btn-primary:hover {
     background-color: #e65c50;
 }
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.gameCard {
+    width: 50%;
+    height: 82vh;
+    border-radius: 20px;
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+}
+.gameh2 {
+    margin-top: 80px;
+}
+.gameCard iframe {
+    position: relative; 
+    left: -102px; 
+    top: -320px; 
+    bottom: 900px;
+}
 
 /* Education Section  */
 .education-section {
@@ -408,13 +430,7 @@ nav a:hover {
     margin-top: 10%;
     padding-left: 5%;
 }
-.containner {
-    height: 100%;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+
 .submit_card a {
     color: #ff6f61;
     font-weight: 700;
@@ -429,6 +445,25 @@ nav a:hover {
 }
 .submit_card h1 {
     margin-bottom: 5%;
+}
+
+.gameCard {
+    width: 100%;  /* Make sure the card takes full width */
+    height: 100%; /* Make sure the card takes full height */
+    border-radius: 20px;
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    position: relative;  /* Position relative for iframe absolute positioning */
+}
+
+.gameCard iframe {
+    width: 100%;  /* Full width */
+    height: 200%; /* Full height */
+    position: absolute;  /* Position the iframe absolutely within the gameCard */
+    top: -63%;
+    left: 0;
+    border: none;  /* Remove border */
+    transform: none;  /* Remove any transforms that might offset the iframe */
 }
 
 /* Responsive Design */
@@ -474,5 +509,60 @@ nav a:hover {
 
     .social-links {
         text-align: center;
+    }
+    .gameCard {
+        width: 75%;
+        height: 70vh;
+    }
+}
+
+@media (max-width: 576px) {
+    .gameCard {
+        width: 75%;
+        height: 72vh;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+    .gameCard {
+        width: 62%;
+        height: 70vh;
+    }
+
+}
+@media (min-width: 992px) {
+    .gameCard {
+        width: 50%;
+        height: 75vh;
+    }
+}
+@media (min-width: 1024px) {
+    .gameCard {
+        width: 40%;
+        height: 50vh;
+    }
+}
+@media (min-height: 620px) {
+    .gameCard {
+        width: 40%;
+        height: 75vh;
+    }
+}
+@media (min-height: 720px) {
+    .gameCard {
+        width: 40%;
+        height: 65vh;
+    }
+}
+@media (min-height: 950px) {
+    .gameCard {
+        width: 45%;
+        height: 50vh;
+    }
+}
+@media (min-height: 1200px) {
+    .gameCard {
+        width: 50%;
+        height: 45vh;
     }
 }

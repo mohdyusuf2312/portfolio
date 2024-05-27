@@ -148,8 +148,8 @@ nav a:hover {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    align-items: flex-start;
-    gap: 50px;
+    align-items:center;
+    gap: 150px;
 }
 
 .about-content .bio {
@@ -273,22 +273,6 @@ nav a:hover {
     justify-content: center;
     align-items: center;
 }
-.gameCard {
-    width: 50%;
-    height: 82vh;
-    border-radius: 20px;
-    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
-    overflow: hidden;
-}
-.gameh2 {
-    margin-top: 80px;
-}
-.gameCard iframe {
-    position: relative; 
-    left: -102px; 
-    top: -320px; 
-    bottom: 900px;
-}
 
 /* Education Section  */
 .education-section {
@@ -360,12 +344,11 @@ nav a:hover {
 .contact-grid {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
-    gap: 50px;
+    justify-content: space-evenly;
 }
 
 .contact-form {
-    max-width: 500px;
+    max-width: 400px;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -447,26 +430,74 @@ nav a:hover {
     margin-bottom: 5%;
 }
 
-.gameCard {
-    width: 100%;  /* Make sure the card takes full width */
-    height: 100%; /* Make sure the card takes full height */
-    border-radius: 20px;
-    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
-    overflow: hidden;
-    position: relative;  /* Position relative for iframe absolute positioning */
-}
-
-.gameCard iframe {
-    width: 100%;  /* Full width */
-    height: 200%; /* Full height */
-    position: absolute;  /* Position the iframe absolutely within the gameCard */
-    top: -63%;
-    left: 0;
-    border: none;  /* Remove border */
-    transform: none;  /* Remove any transforms that might offset the iframe */
-}
-
 /* Responsive Design */
+@media (max-width: 320px) {
+    nav {
+        padding: 2px;
+    }
+
+    .hero-content img {
+        margin-top: 10vh;
+        height: auto;
+        width: 80px;
+        border-radius: 50%;
+    }
+    .hero h1 {
+        font-size: 18px;
+        margin-bottom: 2px;
+    }
+    .hero p {
+        font-size: 9px;
+        margin-bottom: 5px;
+    }
+    .cta-buttons .btn {
+        text-decoration: none;
+        padding: 2px 2px;
+        border-radius: 5px;
+        font-size: 10px;
+}
+    .skills {
+        width: 70%;
+    }
+    skill {
+        width: 100px;
+    }
+    .skill-list {
+        width: 300px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 0 10px;
+    }
+}
+
+@media (max-width: 600px) {
+    nav {
+        padding: 5px;
+    }
+
+    .hero-content img {
+        margin-top: 0;
+        height: auto;
+        width: 100px;
+        border-radius: 50%;
+    }
+    .hero h1 {
+        font-size: 22px;
+        margin-bottom: 5px;
+    }
+    .hero p {
+        font-size: 12px;
+        margin-bottom: 10px;
+    }
+    .cta-buttons .btn {
+        text-decoration: none;
+        padding: 3px 5px;
+        border-radius: 5px;
+        font-size: 14px;
+    }
+}
+
 @media (max-width: 768px) {
     .hero h1 {
         font-size: 36px;
@@ -508,61 +539,19 @@ nav a:hover {
     }
 
     .social-links {
-        text-align: center;
-    }
-    .gameCard {
-        width: 75%;
-        height: 70vh;
-    }
-}
-
-@media (max-width: 576px) {
-    .gameCard {
-        width: 75%;
-        height: 72vh;
-    }
-}
-
-@media (min-width: 768px) and (max-width: 992px) {
-    .gameCard {
-        width: 62%;
-        height: 70vh;
+        margin-top: 50px;
+        text-align: left;
     }
 
-}
-@media (min-width: 992px) {
-    .gameCard {
-        width: 50%;
-        height: 75vh;
+    .skill {
+        width: 100px;
     }
-}
-@media (min-width: 1024px) {
-    .gameCard {
-        width: 40%;
-        height: 50vh;
-    }
-}
-@media (min-height: 620px) {
-    .gameCard {
-        width: 40%;
-        height: 75vh;
-    }
-}
-@media (min-height: 720px) {
-    .gameCard {
-        width: 40%;
-        height: 65vh;
-    }
-}
-@media (min-height: 950px) {
-    .gameCard {
-        width: 45%;
-        height: 50vh;
-    }
-}
-@media (min-height: 1200px) {
-    .gameCard {
-        width: 50%;
-        height: 45vh;
+
+    .skill-list {
+        width: 300px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 0 50px;
     }
 }

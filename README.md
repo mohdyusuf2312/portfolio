@@ -60,8 +60,8 @@ You can reach me through the following channels:
 [gmail]: https://mohdyusufr@gmail.com
 [linkedin]: https://www.linkedin.com/in/mohdyusuf2312/
 [github]: https://www.github.com/mohdyusuf2312/
-
+[twitter]: https://www.twitter.com/mohdyusuf2312/
 [telegram]: https://t.me/MOHD0YUSUF
-[whatsapp]: https://api.whatsapp
+[whatsapp]: https://api.whatsapp.com/send?phone=919084662330
 
 For any inquiries or feedback, feel free to use the contact form available on the portfolio.

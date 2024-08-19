@@ -50,12 +50,12 @@ Attendance System: A system to mark student attendance using a fingerprint scann
 ## Contact
 You can reach me through the following channels:
 
-[<img align="left" alt="gmail_icon" color="white" width="25px" src="http://github.com/mohdyusuf2312/portfolio/assets/socials/envelope-solid" />][gmail]
+[<img align="left" alt="gmail_icon" color="white" width="25px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/gmail.svg" />][gmail]
 [<img align="left" alt="linkedIn_icon" width="25px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/linkedin.svg" />][linkedin]
 [<img align="left" alt="github_icon" width="25px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/github.svg" />][github]
 [<img align="left" alt="twitter_icon" width="25px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/twitter.svg" />][twitter]
 [<img align="left" alt="telegram_icon" width="25px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/telegram.svg" />][telegram]
-[<img align="left" alt="whatsapp_icon" width="25px" src="https://github.com/mohdyusuf2312/portfolio/blob/main/assets/socials/square-whatsapp-brands-solid.svg" />][whatsapp]
+[<img align="left" alt="whatsapp_icon" width="25px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/whatsapp.svg" />][whatsapp]
 
 [gmail]: https://mohdyusufr@gmail.com
 [linkedin]: https://www.linkedin.com/in/mohdyusuf2312/

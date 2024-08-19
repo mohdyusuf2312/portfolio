@@ -50,12 +50,12 @@ Attendance System: A system to mark student attendance using a fingerprint scann
 ## Contact
 You can reach me through the following channels:
 
-[<img align="left" alt="gmail_icon | LinkedIn" width="25px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/gmail.svg" />][gmail]
-[<img align="left" alt="linkedIn_icon | LinkedIn" width="25px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/linkedin.svg" />][linkedin]
-[<img align="left" alt="github_icon | Twitter" width="25px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/github.svg" />][github]
-[<img align="left" alt="twitter_icon | Twitter" width="25px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/twitter.svg" />][twitter]
-[<img align="left" alt="telegram_icon | Telegram" width="25px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/telegram.svg" />][telegram]
-[<img align="left" alt="whatsapp_icon | Telegram" width="25px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/whatsapp.svg" />][whatsapp]
+[<img align="left" alt="gmail_icon" color="white" width="25px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/gmail.svg" />][gmail]
+[<img align="left" alt="linkedIn_icon" width="25px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/linkedin.svg" />][linkedin]
+[<img align="left" alt="github_icon" width="25px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/github.svg" />][github]
+[<img align="left" alt="twitter_icon" width="25px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/twitter.svg" />][twitter]
+[<img align="left" alt="telegram_icon" width="25px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/telegram.svg" />][telegram]
+[<img align="left" alt="whatsapp_icon" width="25px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/whatsapp.svg" />][whatsapp]
 
 [gmail]: https://mohdyusufr@gmail.com
 [linkedin]: https://www.linkedin.com/in/mohdyusuf2312/
@@ -63,5 +63,5 @@ You can reach me through the following channels:
 [twitter]: https://www.twitter.com/mohdyusuf2312/
 [telegram]: https://t.me/MOHD0YUSUF
 [whatsapp]: https://api.whatsapp.com/send?phone=919084662330
-
+<br>
 For any inquiries or feedback, feel free to use the contact form available on the portfolio.

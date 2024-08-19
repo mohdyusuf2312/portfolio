@@ -50,7 +50,7 @@ Attendance System: A system to mark student attendance using a fingerprint scann
 ## Contact
 You can reach me through the following channels:
 
-[<img align="left" alt="gmail_icon" color="white" width="25px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/gmail.svg" />][gmail]
+[<img align="left" alt="gmail_icon" color="white" width="25px" src="http://github.com/mohdyusuf2312/portfolio/assets/socials/envelope-solid" />][gmail]
 [<img align="left" alt="linkedIn_icon" width="25px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/linkedin.svg" />][linkedin]
 [<img align="left" alt="github_icon" width="25px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/github.svg" />][github]
 [<img align="left" alt="twitter_icon" width="25px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/twitter.svg" />][twitter]
@@ -63,5 +63,6 @@ You can reach me through the following channels:
 [twitter]: https://www.twitter.com/mohdyusuf2312/
 [telegram]: https://t.me/MOHD0YUSUF
 [whatsapp]: https://api.whatsapp.com/send?phone=919084662330
+<br>
 <br>
 For any inquiries or feedback, feel free to use the contact form available on the portfolio.

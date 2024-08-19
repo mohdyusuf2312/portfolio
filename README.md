@@ -55,7 +55,7 @@ You can reach me through the following channels:
 [<img align="left" alt="github_icon" width="25px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/github.svg" />][github]
 [<img align="left" alt="twitter_icon" width="25px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/twitter.svg" />][twitter]
 [<img align="left" alt="telegram_icon" width="25px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/telegram.svg" />][telegram]
-[<img align="left" alt="whatsapp_icon" width="25px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/whatsapp.svg" />][whatsapp]
+[<img align="left" alt="whatsapp_icon" width="25px" src="https://github.com/mohdyusuf2312/portfolio/blob/main/assets/socials/square-whatsapp-brands-solid.svg" />][whatsapp]
 
 [gmail]: https://mohdyusufr@gmail.com
 [linkedin]: https://www.linkedin.com/in/mohdyusuf2312/

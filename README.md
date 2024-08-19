@@ -49,7 +49,7 @@ Attendance System: A system to mark student attendance using a fingerprint scann
 
 ## Contact
 You can reach me through the following channels:
-<i class="fa-regular fa-envelope"></i>
+
 [<img align="left" alt="gmail_icon" color="white" width="25px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/gmail.svg" />][gmail]
 [<img align="left" alt="linkedIn_icon" width="25px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/linkedin.svg" />][linkedin]
 [<img align="left" alt="github_icon" width="25px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/github.svg" />][github]
@@ -65,5 +65,3 @@ You can reach me through the following channels:
 [whatsapp]: https://api.whatsapp.com/send?phone=919084662330
 <br>
 For any inquiries or feedback, feel free to use the contact form available on the portfolio.
-
-<script src="https://kit.fontawesome.com/740d826d31.js" crossorigin="anonymous"></script>

@@ -3,8 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio - Home</title>
+
+    <!-- link google font  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Exo+2&display=swap" rel="stylesheet">
+
+    <!-- link css  -->
     <link rel="stylesheet" href="styles.css">
+
+    <!-- Link favicon  -->
+    <link rel="shortcut icon" href="./favicon.svg" type="image/jpg">
+
+    <!-- Title  -->
+    <title>Portfolio - Home</title>
 </head>
 <body>
     <!-- Navbar -->
@@ -60,16 +72,24 @@
                             <div class="progress-bar"><span style="width: 85%;"></span></div>
                         </div>
                         <div class="skill">
+                            <h4>MongoDb</h4>
+                            <div class="progress-bar"><span style="width: 80%;"></span></div>
+                        </div>
+                        <div class="skill">
+                            <h4>Express</h4>
+                            <div class="progress-bar"><span style="width: 80%;"></span></div>
+                        </div>
+                        <div class="skill">
                             <h4>React</h4>
                             <div class="progress-bar"><span style="width: 80%;"></span></div>
                         </div>
                         <div class="skill">
-                            <h4>Tailwind</h4>
-                            <div class="progress-bar"><span style="width: 70%;"></span></div>
-                        </div>
-                        <div class="skill">
                             <h4>Node.js</h4>
                             <div class="progress-bar"><span style="width: 75%;"></span></div>
+                        </div>
+                        <div class="skill">
+                            <h4>Tailwind</h4>
+                            <div class="progress-bar"><span style="width: 70%;"></span></div>
                         </div>
                         <div class="skill">
                             <h4>C/C++</h4>
@@ -166,8 +186,8 @@
                 <div class="project-card">
                     <!-- <img src="project4.jpg" alt="Project 4 Screenshot"> -->
                     <div class="project-info">
-                        <h3>Attendance System (Developing Currently)</h3>
-                        <p>This project is about to take attendance of students with the help of finger-print scanner.</p>
+                        <h3>Attendance Management Web App (Developing Currently)</h3>
+                        <p>This project is allows teachers to manually record attendance and enables students to check their attendance status online.</p>
                         <a href="https://github.com/mohdyusuf2312/attendance_system" class="btn btn-primary" target="_blank"><i class="fa-regular fa-eye"></i> View Project</a>
                     </div>
                 </div>
@@ -189,7 +209,8 @@
             
             <div class="contact-grid">
                 <!-- Contact Form -->
-                <form action="./formSubmit.html" method="POST" class="contact-form">
+                <!-- <form onsubmit="sendEmail(); reset(); return false;" method="POST" class="contact-form"> -->
+                <form action="https://formspree.io/f/meojzydd" method="POST" class="contact-form">
                     <input type="text" name="name" placeholder="Your Name" required>
                     <input type="email" name="email" placeholder="Your Email" required>
                     <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
@@ -212,5 +233,6 @@
     <!-- Scripts -->
     <script src="script.js"></script>
     <script src="https://kit.fontawesome.com/740d826d31.js" crossorigin="anonymous"></script>
+    <!-- <script src="https://smtpjs.com/v3/smtp.js"></script> -->
 </body>
 </html>

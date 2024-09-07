@@ -55,7 +55,7 @@ nav a:hover {
 }
 
 .hero {
-    height: 100vh;
+    height: 40em;
     /* background: url('hero-bg.jpg') no-repeat center center/cover; */
     background-image: radial-gradient(#632525, #000000);
     display: flex;
@@ -483,7 +483,7 @@ nav a:hover {
     .hero-content img {
         margin-top: 0;
         height: auto;
-        width: 100px;
+        width: 30%;
         border-radius: 50%;
     }
     .hero h1 {

@@ -476,6 +476,9 @@ nav a:hover {
 }
 
 @media (max-width: 600px) {
+    .hero {
+        height: 30em;
+    }
     nav {
         padding: 5px;
     }

@@ -382,6 +382,11 @@ nav a:hover {
     background-color: #e65c50;
 }
 
+/* QazaBtn in Hero Section  */
+.QazaBtn {
+    margin-top : 43px;
+}
+
 /* Qaza Section */
 .qaza-section {
     padding: 20px 0px;
@@ -533,7 +538,7 @@ nav a:hover {
 
 @media (max-width: 600px) {
     .hero {
-        height: 30em;
+        height: 22em;
     }
     nav {
         padding: 5px;
@@ -616,5 +621,8 @@ nav a:hover {
         flex-direction: row;
         flex-wrap: wrap;
         gap: 0 50px;
+    }
+    .QazaBtn {
+        margin-top : 20px;
     }
 }

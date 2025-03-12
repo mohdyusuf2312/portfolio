@@ -165,13 +165,17 @@
             }
 
             document.getElementById('result').innerHTML = `
-                <h3>Total Qaza Namaz</h3>
+                <h3 style="margin-bottom:10px; ">Total Qaza Namaz</h3>
                 <p>Fajr         : ${AterRamadanAndJummah} namaz</p>
                 <p>Dhuhr        : ${AterRamadanAndJummah} namaz</p>
                 <p>Asr          : ${AfterRamadan} namaz</p>
                 <p>Maghrib      : ${AfterRamadan} namaz</p>
                 <p>Isha         : ${AfterRamadan} namaz</p>
                 <p>Witr         : ${AfterRamadan} namaz</p>
+                <p class="warning" style="color:Red; margin-top: 30px; max-width: 35vw;">
+                    <strong>Disclaimer:</strong> This calculator provides an approximate estimation. The actual number of missed prayers may vary slightly. 
+                    May Allah forgive both of us for any miscalculations. Ameen.
+                </p>
             `;
         }
     </script>
